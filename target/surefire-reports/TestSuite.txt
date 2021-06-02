@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.462 sec <<< FAILURE! - in TestSuite
+test(docker.ChromeTest1)  Time elapsed: 1.042 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --headless, --disable-gpu, --disable-dev-shm-usage, --profile-directory=Default], extensions: []}, version: }
+Command duration or timeout: 235 milliseconds
+	at docker.ChromeTest1.test(ChromeTest1.java:30)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --headless, --disable-gpu, --disable-dev-shm-usage, --profile-directory=Default], extensions: []}, version: }
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIPIN', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+test(docker.FirefoxTest)  Time elapsed: 1.044 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {acceptInsecureCerts: true, browserName: firefox, version: }
+Command duration or timeout: 245 milliseconds
+	at docker.FirefoxTest.test(FirefoxTest.java:20)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {acceptInsecureCerts: true, browserName: firefox, version: }
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIPIN', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+

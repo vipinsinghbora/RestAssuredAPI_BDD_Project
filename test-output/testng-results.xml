@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56844" started-at="2021-06-02T17:10:14Z" finished-at="2021-06-02T17:11:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56844" started-at="2021-06-02T17:10:14Z" finished-at="2021-06-02T17:11:11Z">
+      <class name="docker.ChromeTest1">
+        <test-method status="PASS" signature="test()[pri:0, instance:docker.ChromeTest1@5f2108b5]" name="test" duration-ms="4379" started-at="2021-06-02T17:10:29Z" finished-at="2021-06-02T17:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.ChromeTest1 -->
+      <class name="docker.Setup_DockerGrid">
+        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@e45f292]" name="startDockerGrid" is-config="true" duration-ms="15018" started-at="2021-06-02T17:10:14Z" finished-at="2021-06-02T17:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method status="PASS" signature="stopDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@e45f292]" name="stopDockerGrid" is-config="true" duration-ms="5021" started-at="2021-06-02T17:11:06Z" finished-at="2021-06-02T17:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- docker.Setup_DockerGrid -->
+      <class name="docker.FirefoxTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:docker.FirefoxTest@31a5c39e]" name="test" duration-ms="36747" started-at="2021-06-02T17:10:29Z" finished-at="2021-06-02T17:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.FirefoxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
